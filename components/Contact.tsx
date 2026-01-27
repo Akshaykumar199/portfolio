@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="py-20 bg-gradient-to-br from-blue-50 via-white to-purple-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900"
+      className="py-20 bg-gradient-to-br from-blue-50/80 via-white/80 to-purple-50/80 dark:from-gray-900/80 dark:via-gray-800/80 dark:to-gray-900/80 backdrop-blur-sm"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
@@ -40,25 +40,7 @@ const Contact = () => {
                 </div>
               </div>
 
-              <div className="bg-white dark:bg-gray-700 rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow">
-                <div className="flex items-center gap-4">
-                  <div className="bg-blue-100 dark:bg-blue-900 p-4 rounded-full">
-                    <FaPhone className="text-2xl text-blue-600 dark:text-blue-400" />
-                  </div>
-                  <div>
-                    <h3 className="font-semibold text-gray-900 dark:text-white mb-1">
-                      Phone
-                    </h3>
-                    <a
-                      href={`tel:${resumeData.phone}`}
-                      className="text-blue-600 dark:text-blue-400 hover:underline"
-                    >
-                      {resumeData.phone}
-                    </a>
-                  </div>
-                </div>
-              </div>
-
+            
               <div className="bg-white dark:bg-gray-700 rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow">
                 <div className="flex items-center gap-4">
                   <div className="bg-blue-100 dark:bg-blue-900 p-4 rounded-full">

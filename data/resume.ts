@@ -2,7 +2,7 @@ export const resumeData = {
   name: "Akshay Kumar",
   title: "Software Intern",
   email: "Akshaykumar74570@gmail.com",
-  phone: "9557278683",
+  phone: "xxxxxx8683",
   location: "Meerut, 250001",
   profile: "I am a highly motivated software development student eager to apply my skills in software design, development, and integration. I have a strong hands-on experience in writing code and developing systems, particularly for Trecent System applications. I am enthusiastic about the opportunity to further develop my foundation in demand programming languages and abilities and contribute to real-world projects during my internship.",
   skills: [
