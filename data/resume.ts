@@ -42,14 +42,20 @@ export const resumeData = {
     {
       title: "Chatbot",
       description: "A mini project on chatbot development showcasing AI and natural language processing capabilities.",
+      githubUrl: "https://github.com/Akshaykumar199/chatbot",
+      demoPath: "/chatbot",
     },
     {
       title: "YouTube Management System",
       description: "A mini project on YouTube management system demonstrating web development and database management skills.",
+      githubUrl: "https://github.com/Akshaykumar199/youtube-management-system",
+      demoPath: "/youtube-management-system",
     },
     {
       title: "Library Management System",
       description: "A mini project on library management system featuring CRUD operations and database integration.",
+      githubUrl: "https://github.com/Akshaykumar199/library-management-system",
+      demoPath: "/library-management-system",
     },
   ],
   strengths: [

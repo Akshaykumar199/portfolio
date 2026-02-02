@@ -39,8 +39,6 @@ const Contact = () => {
                   </div>
                 </div>
               </div>
-
-            
               <div className="bg-white dark:bg-gray-700 rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow">
                 <div className="flex items-center gap-4">
                   <div className="bg-blue-100 dark:bg-blue-900 p-4 rounded-full">
@@ -53,6 +51,28 @@ const Contact = () => {
                     <p className="text-gray-700 dark:text-gray-300">
                       {resumeData.location}
                     </p>
+                  </div>
+                </div>
+              </div>
+
+              {/* GitHub profile link */}
+              <div className="bg-white dark:bg-gray-700 rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow">
+                <div className="flex items-center gap-4">
+                  <div className="bg-blue-100 dark:bg-blue-900 p-4 rounded-full">
+                    <FaGithub className="text-2xl text-gray-900 dark:text-white" />
+                  </div>
+                  <div>
+                    <h3 className="font-semibold text-gray-900 dark:text-white mb-1">
+                      GitHub Projects
+                    </h3>
+                    <a
+                      href="https://github.com/Akshaykumar199"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-blue-600 dark:text-blue-400 hover:underline"
+                    >
+                      View all my projects on GitHub
+                    </a>
                   </div>
                 </div>
               </div>
