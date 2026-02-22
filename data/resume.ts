@@ -58,7 +58,7 @@ export const resumeData = {
       demoPath: "/library-management-system",
     },
     {
-      title: "QuickCart (Blinkit/Zepto-style)",
+      title: "QuickCart",
       description: "Quick-commerce e-commerce app: categories, product catalog, cart, checkout, and 10–15 min delivery theme.",
       demoPath: "/store",
     },
