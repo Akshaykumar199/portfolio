@@ -62,6 +62,11 @@ export const resumeData = {
       description: "Quick-commerce e-commerce app: categories, product catalog, cart, checkout, and 10–15 min delivery theme.",
       demoPath: "/store",
     },
+    {
+      title: "Milk Store",
+      description: "Milk-only e-commerce app with all varieties: full cream, toned, skimmed, buffalo, organic, flavored, A2, lactose-free and more.",
+      demoPath: "/milk",
+    },
   ],
   strengths: [
     "Hardworking",
