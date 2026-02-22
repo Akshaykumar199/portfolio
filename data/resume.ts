@@ -57,6 +57,11 @@ export const resumeData = {
       githubUrl: "https://github.com/Akshaykumar199/library-management-system",
       demoPath: "/library-management-system",
     },
+    {
+      title: "QuickCart (Blinkit/Zepto-style)",
+      description: "Quick-commerce e-commerce app: categories, product catalog, cart, checkout, and 10–15 min delivery theme.",
+      demoPath: "/store",
+    },
   ],
   strengths: [
     "Hardworking",
