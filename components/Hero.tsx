@@ -1,4 +1,5 @@
 import { resumeData } from "@/data/resume";
+import Image from "next/image";
 import { FaEnvelope, FaPhone, FaMapMarkerAlt } from "react-icons/fa";
 
 const Hero = () => {
@@ -11,13 +12,15 @@ const Hero = () => {
         <div className="text-center">
           <div className="mb-8">
             <div className="inline-block mb-4">
-              <div className="relative w-32 h-32 mx-auto rounded-full bg-gradient-to-br from-blue-500 to-purple-600 p-[3px] shadow-[0_0_30px_rgba(59,130,246,0.7)]">
-                <div className="w-full h-full rounded-full bg-white dark:bg-gray-900 flex items-center justify-center text-4xl font-bold text-blue-600 dark:text-blue-300">
-                  {resumeData.name
-                    .split(" ")
-                    .map((n) => n[0])
-                    .join("")}
-                </div>
+              <div className="relative w-32 h-32 mx-auto rounded-full bg-gradient-to-br from-blue-500 to-purple-600 p-[3px] shadow-[0_0_30px_rgba(59,130,246,0.7)] overflow-hidden">
+                <Image
+                  src="/profile.png"
+                  alt={resumeData.name}
+                  fill
+                  className="rounded-full object-cover"
+                  sizes="128px"
+                  priority
+                />
               </div>
             </div>
           </div>
