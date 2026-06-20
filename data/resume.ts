@@ -67,6 +67,12 @@ export const resumeData = {
       description: "Milk-only e-commerce app with all varieties: full cream, toned, skimmed, buffalo, organic, flavored, A2, lactose-free and more.",
       demoPath: "/milk",
     },
+    {
+      title: "Daily Train Ticket Collection",
+      description:
+        "A daily savings tracker to collect money for a train ticket with progress and saved history.",
+      demoPath: "/ticket-collection",
+    },
   ],
   strengths: [
     "Hardworking",

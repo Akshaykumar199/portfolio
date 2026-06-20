@@ -34,6 +34,9 @@ const Hero = () => {
           <p className="text-lg md:text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto mb-12">
             {resumeData.profile}
           </p>
+          <p className="text-sm md:text-base text-gray-700 dark:text-gray-200 max-w-2xl mx-auto mb-10">
+            Built a daily train ticket collection tracker to plan and track savings for train journeys.
+          </p>
           <div className="flex flex-wrap justify-center gap-6 text-gray-700 dark:text-gray-300">
             <a
               href={`mailto:${resumeData.email}`}

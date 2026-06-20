@@ -33,18 +33,18 @@ const Projects = () => {
               </div>
               <div className="flex items-center justify-between mt-auto pt-2">
                 <div className="flex items-center gap-2 text-blue-600 dark:text-blue-400">
-                  <FaGithub className="mr-1" />
-                  {project.githubUrl && (
-                  //   <a
-                  //     href={project.githubUrl}
-                  //     target="_blank"
-                  //     rel="noopener noreferrer"
-                  //     className="text-sm font-semibold underline underline-offset-2"
-                  //   >
-                  //     View code
-                  //   </a>
-                  // ) : (
-                    <span className="text-sm font-semibold">Mini Project</span>
+                  {project.githubUrl ? (
+                    <a
+                      href={project.githubUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-2 text-sm font-semibold underline underline-offset-2"
+                    >
+                      <FaGithub />
+                      View code
+                    </a>
+                  ) : (
+                    <span className="text-sm font-semibold">Front-end demo</span>
                   )}
                 </div>
                 {project.demoPath && (                  <a
