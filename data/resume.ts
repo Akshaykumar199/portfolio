@@ -73,6 +73,12 @@ export const resumeData = {
         "A daily savings tracker to collect money for a train ticket with progress and saved history.",
       demoPath: "/ticket-collection",
     },
+    {
+      title: "Tech Quiz App",
+      description:
+        "An interactive quiz app with multiple categories, instant feedback, score tracking, and results summary.",
+      demoPath: "/quiz",
+    },
   ],
   strengths: [
     "Hardworking",
